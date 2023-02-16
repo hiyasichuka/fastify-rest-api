@@ -5,6 +5,9 @@
   "repository": "git@github.com:hiyasichuka/fastify-rest-api.git",
   "author": "Kei Takahashi <takahashi.kgs@om.asahi-kasei.co.jp>",
   "license": "MIT",
+  "scripts": {
+    "dev": "tsnd --respawn --transpile-only --exit-child src/app.ts"
+  },
   "dependencies": {
     "@prisma/client": "^4.10.1",
     "fastify": "^4.13.0",
