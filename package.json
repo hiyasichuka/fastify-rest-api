@@ -1,0 +1,8 @@
+{
+  "name": "fastify-rest-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:hiyasichuka/fastify-rest-api.git",
+  "author": "Kei Takahashi <takahashi.kgs@om.asahi-kasei.co.jp>",
+  "license": "MIT"
+}
