@@ -4,5 +4,13 @@
   "main": "index.js",
   "repository": "git@github.com:hiyasichuka/fastify-rest-api.git",
   "author": "Kei Takahashi <takahashi.kgs@om.asahi-kasei.co.jp>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "^4.10.1",
+    "fastify": "^4.13.0",
+    "fastify-jwt": "^4.2.0",
+    "fastify-zod": "^1.2.0",
+    "zod": "^3.20.6",
+    "zod-to-json-schema": "^3.20.4"
+  }
 }
