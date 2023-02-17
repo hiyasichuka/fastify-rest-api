@@ -1,13 +1,17 @@
 import { z } from 'zod'
 
-const createUserSchema = z.object({
+const userCore = {
   email: z
     .string({
       required_error: 'Email is required',
       invalid_type_error: 'Email must be a string'
     })
     .email(),
-  name: z.string(),
+  name: z.string()
+}
+
+const createUserSchema = z.object({
+  ...userCore,
   password: z.string({
     required_error: 'Email is required',
     invalid_type_error: 'Email must be a string'
