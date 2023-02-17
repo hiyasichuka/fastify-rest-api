@@ -13,14 +13,13 @@ const userCore = {
 
 const createUserSchema = z.object({
   ...userCore,
-  id: z.number(),
   password: z.string({
     required_error: 'Email is required',
     invalid_type_error: 'Email must be a string'
   })
 })
 
-const createUserResponseSchema = z.object({ ...userCore })
+const createUserResponseSchema = z.object({ id: z.number(), ...userCore })
 
 export type CreatUserInput = z.infer<typeof createUserSchema>
 
