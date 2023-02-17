@@ -2,7 +2,7 @@ import { FastifyReply, FastifyRequest } from 'fastify'
 import { verifyPassword } from '../../../utils/hash'
 import { server } from '../../app'
 import { CreatUserInput, LoginInput } from './user.schema'
-import { createUser, findUserByEmail } from './user.service'
+import { createUser, findUserByEmail, findUsers } from './user.service'
 
 export async function registerUserHandler(
   request: FastifyRequest<{
@@ -56,4 +56,9 @@ export async function loginHandler(
   // generate access token
 
   //
+}
+
+export async function getUsersHandler() {
+  const users = await findUsers()
+  return users
 }

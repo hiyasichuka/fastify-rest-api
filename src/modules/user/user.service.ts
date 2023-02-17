@@ -16,3 +16,7 @@ export async function findUserByEmail(email: string) {
     where: { email }
   })
 }
+
+export async function findUsers() {
+  return prisma.user.findMany()
+}
