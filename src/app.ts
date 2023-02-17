@@ -3,7 +3,7 @@ import fjwt from '@fastify/jwt'
 import userRoutes from './modules/user/user.route'
 import { userSchemas } from './modules/user/user.schema'
 
-const server = Fastify()
+export const server = Fastify()
 
 server.register(fjwt, {
   secret: 'asdfjp13je9usfjdsalfja9aup'
