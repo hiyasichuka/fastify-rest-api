@@ -1,5 +1,5 @@
 import { FastifyReply, FastifyRequest } from 'fastify'
-import { verifyPassword } from '../../../utils/hash'
+import { verifyPassword } from '../../utils/hash'
 import { server } from '../../app'
 import { CreatUserInput, LoginInput } from './user.schema'
 import { createUser, findUserByEmail, findUsers } from './user.service'
