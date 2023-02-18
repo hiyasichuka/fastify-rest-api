@@ -1,4 +1,4 @@
-import { FastifyReply, FastifyRequest } from 'fastify'
+import { FastifyRequest } from 'fastify'
 import { CreateProductInput } from './product.schema'
 import { createProduct } from './product.service'
 
