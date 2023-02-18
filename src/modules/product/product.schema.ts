@@ -1,7 +1,7 @@
 import { z } from 'zod'
 import { buildJsonSchemas } from 'fastify-zod'
 
-const productInputSchema = {
+const productInput = {
   title: z.string(),
   price: z.number(),
   content: z.string().optional()
@@ -11,10 +11,10 @@ const productGenerated = {
   createdAt: z.string(),
   updatedAt: z.string()
 }
-const createProductSchema = z.object({ ...productInputSchema })
+const createProductSchema = z.object({ ...productInput })
 
 const productResponseSchema = z.object({
-  ...productInputSchema,
+  ...productInput,
   ...productGenerated
 })
 
