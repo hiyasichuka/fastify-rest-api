@@ -201,9 +201,9 @@
   integrity sha512-FhpRzf927MNQdRZP0J5DLIdTXhjLYzeUTmLAu69mnVksLH9CJY3IuSeEgbKUki7GQZm0WqDkGzyxju2EZGD2wA==
 
 "@types/node@^18.13.0":
-  version "18.15.10"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.15.10.tgz#4ee2171c3306a185d1208dad5f44dae3dee4cfe3"
-  integrity sha512-9avDaQJczATcXgfmMAW3MIWArOO7A+m90vuCFLr8AotWf8igO/mRoYukrk2cqZVtv38tHs33retzHEilM7FpeQ==
+  version "18.16.17"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.16.17.tgz#d2512c03313db6329f7cb515fc8b508e658230c4"
+  integrity sha512-QAkjjRA1N7gPJeAP4WLXZtYv6+eMXFNviqktCDt4GLcmCugMr5BcRHfkOjCQzvCsnMp+L79a54zBkbw356xv9Q==
 
 "@types/strip-bom@^3.0.0":
   version "3.0.0"
