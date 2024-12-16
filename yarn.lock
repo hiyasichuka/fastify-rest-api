@@ -41,9 +41,9 @@
     fast-json-stringify "^5.0.0"
 
 "@fastify/jwt@^6.5.0":
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/@fastify/jwt/-/jwt-6.5.0.tgz#99fa697e7114aee5039f0c8761d0b3278f74f30a"
-  integrity sha512-5fR5bRXuWurP56gy/owng3BS/3e9vA0mON1XCGLsznvsudLZUdiPaK0R8Bl5gVwFAW75iFkNOp8qgnw26Csjrw==
+  version "6.7.1"
+  resolved "https://registry.yarnpkg.com/@fastify/jwt/-/jwt-6.7.1.tgz#7ebbb7844eecf5bd4da12a878a8d0b1ccb28413e"
+  integrity sha512-pvRcGeyF2H1U+HXaxlRBd6s1y99vbSZjhpxTWECIGIhMXKRxBTBSUPRF7LJGONlW1/pZstQ0/Dp/ZxBFlDuEnw==
   dependencies:
     "@fastify/error" "^3.0.0"
     "@lukeed/ms" "^2.0.0"
